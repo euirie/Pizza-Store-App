@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+TMA3084 Software Engineering Laboratory - Pizza Store App
+=======
 # flutter_application_1
 
 A new Flutter project.
@@ -15,3 +18,4 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+>>>>>>> 0a98c0946d504490d2b04893ad155851b0c05352
