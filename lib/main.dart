@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'home_page.dart';
 import 'contact_page.dart';
+import 'home_page.dart';
+import 'facebook_page.dart';
 import 'twitter_page.dart';
 import 'screens/menu.dart';
 
@@ -10,11 +12,12 @@ void main() {
 }
 
 class WOWPizzaApp extends StatelessWidget {
-  const WOWPizzaApp({Key? key}) : super(key: key);
+  const WOWPizzaApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
         '/': (context) => const HomePage(),
