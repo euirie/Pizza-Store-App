@@ -6,14 +6,15 @@ class ContactPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Contact Us'),
-      ),
+      appBar: AppBar(title: const Text('Contact Us')),
       body: const Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('FrostByte Japanese Restaurant', style: TextStyle(fontSize: 30)),
+            Text(
+              'FrostByte Japanese Restaurant',
+              style: TextStyle(fontSize: 30),
+            ),
             SizedBox(height: 20),
             Text('Address: Metrocity, Kuching'),
             Text('Phone: +60 12-676 7676'),
