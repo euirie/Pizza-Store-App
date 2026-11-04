@@ -15,10 +15,10 @@ class _TwitterPageState extends State<TwitterPage> {
   @override
   void initState() {
     super.initState();
-    
+
     //convert the website text into a link format
     final myLink = Uri.parse('https://twitter.com/');
-    
+
     //yell controller to load link
     myController.loadRequest(myLink);
   }
@@ -26,10 +26,8 @@ class _TwitterPageState extends State<TwitterPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Twitter'),
-      ),
-      //display the controller 
+      appBar: AppBar(title: const Text('Twitter')),
+      //display the controller
       body: WebViewWidget(controller: myController),
     );
   }
