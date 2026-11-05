@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'home_page.dart';
 import 'contact_page.dart';
-import 'home_page.dart';
 import 'facebook_page.dart';
 import 'twitter_page.dart';
+import 'about_page.dart';
 import 'screens/menu.dart';
 
 void main() {
@@ -22,12 +22,10 @@ class WOWPizzaApp extends StatelessWidget {
       routes: {
         '/': (context) => const HomePage(),
         '/menu': (context) => MenuPage(),
-        '/about': (context) =>
-            const Scaffold(body: Center(child: Text('About'))),
+        '/about': (context) => const AboutPage(),
         '/contact': (context) => const ContactPage(),
         '/twitter': (context) => const TwitterPage(),
-        '/facebook': (context) =>
-            const Scaffold(body: Center(child: Text('Facebook'))),
+        '/facebook': (context) => const FacebookPage(),
       },
     );
   }
